@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper bg-cyan-950 flex flex-col items-center justify-center w-[100vw] h-[100vh]">
+
+        <div class="content flex items-center justify-between w-[80%] h-auto">
+            <button id="dec" class="text-white border border-slate-500 px-8 py-7 rounded-full hover:border-white duration-100 transition-all"><i class="fa-solid fa-minus"></i></button>
+            <div class="screen"><p id="text-num" class="font-sans font-medium text-white text-[200px]">0</p></div>
+            <button id="inc"  class="text-white border border-slate-500 px-8 py-7 rounded-full hover:border-white duration-100 transition-all"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div>
+            <button onclick="reset()" id="reset" class="py-1 px-5 bg-green-400 rounded-md text-white hover:bg-green-600 duration-150 transition-all font-semibold">Reset</button>
+        </div>
+    </div>
+    <script src="ind.js"></script>
+    <script src="https://kit.fontawesome.com/99528f73ed.js" crossorigin="anonymous"></script>
+    </body>
+</html>
